@@ -1,0 +1,15 @@
+numpy
+pandas
+matplotlib
+faiss-cpu
+pytesseract
+pdfplumber
+pymupdf
+tiktoken
+langchain
+openai
+pillow
+tkinterdnd2
+python-dotenv
+requests
+scikit-learn

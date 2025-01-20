@@ -1,0 +1,114 @@
+DANF3E - DOCUMENTO AUXILIAR DA NOTA FISCAL DE ENERGIA ELÉTRICA ELETRÔNICA 2ª Via
+Equatorial Alagoas Distribuidora de Energia S.A.
+Página 1/2
+CNPJ: 12.272.084/0001-00 | Insc. Estadual: 24.007.177-8
+Av. Fernandes Lima, 3349
+Gruta de Lourdes - Maceió - AL CEP: 57.052-902
+Classificação: Rural Aqüicultura - CULTIVOS E SEMICULTIVOS Tipo de Fornecimento: TRIFÁSICO
+DA AQUICULTURA EM AGUA SALGADA E SALOBRA NAO
+Tensão Nominal Disp: 13.800 Lim Min: 12.834 V Lim Max: 14.490 V Tipo de Tarifa: A4_VD
+Data das Leitura Anterior Leitura Atual Nº de Dias Próxima Leitura
+LUIZ JATOBA FILHO Leituras 31/12/2022 31/01/2023 31 28/02/2023
+INSTALAÇÃO: 15383962 Parceiro de Negócio
+CPF: ***.873.50*-** 3180123
+FA PAU PARAIBA , S/N , M 3 CEP: 57255-000 NOTA FISCAL Nº 008973386 - SÉRIE 000 /
+BAIRRO RURAL - JEQUIA DA PRAIA - AL DATA DE EMISSÃO: 31/01/2023
+Conta Contrato Consulte pela Chave de Acesso em:
+FATOR DE POTÊNCIA: 0.49 15383962 https://dfe-portal.svrs.rs.gov.br/NF3E/Consulta
+chave de acesso:
+27230112272084000100660000089733861035578100
+Conta Mês Vencimento Total a Pagar Protocolo de autorização: 3272300001100939 -
+01/2023 24/02/2023 R$ 80.015.18 01/02/2023 às 14:30:56
+INFORMAÇÕES PARA O CLIENTE
+Valor referente ao FECOEP: R$788.36
+Itens de Fatura Quant. Preço Unit.(R$) Tarifa PIS/ ICMS Valor(R$) Tributo Base(R$) Aliquota(%) Valor(R$)
+com Tributos Unit.(R$) COFINS(R$) (R$)
+ICMS 78.835.65 18.0000 14.190.42
+Consumo Ponta (kWh) 680.40 2.753057 2.178569 53.72 337.17 1.873.18 PIS 79.015.35 0.6210 490.70
+Consumo Fora Ponta (kWh) 51.001.44 0.481416 0.380955 704.15 4.419.53 24.552.92 COFINS 79.015.35 2.8764 2.272.80
+Consumo Reservado (kWh) 37.356.48 0.049124 0.038873 52.63 330.32 1.835.10
+Demanda Ativa (kW) 752.64 30.552176 24.176600 659.46 4.139.06 22.994.79
+Consumo Reativo Excedente NP (kVAr) 9.453.36 0.358729 0.283870 97.26 610.41 3.391.19 Grandezas Contratadas
+Consumo Reativo Excedente FP (kVAr) 47.418 0.358729 0.283870 487.83 3.061.84 17.010.21
+Consumo Reativo Excedente RV (kVAr) 10.848.60 0.358729 0.283870 111.61 700.51 3.891.71 Demanda Contratada Única (kW): 719.00
+Demanda Reativa (kVAr) 105.42 31.175773 24.670000 94.26 591.58 3.286.55 Demanda Contratada Ponta (kW):
+Benefício Tarifário Bruto 502.58 0.00 14.370.12 Demanda Contratada Fora Ponta (kW):
+ITENS FINANCEIROS Dem. Reserva Cap. Única (kW):
+Cip-Ilum Pub Pref Munic 676.95 Dem. Reserva Cap. Fora Ponta (kW):
+Benefício Tarifário Líquido 13.867.54- Dem. Reserva Cap. Ponta (kW):
+Dem. de Geração (kW):
+Dem. de Dist. Única (kW):
+Dem. de Dist. De Ponta (kW):
+Dem. de Dist. Fora Ponta (kW):
+Medidor Grandeza Posto Horário Leitura Leitura Const. Consumo Reservado ao Fisco
+Anterior Atual Medidor
+36050025882 Consumo Fora Ponta Consumo Ativo FP Reg 181.208 302.640 0.4200 51.001.44 kWh 0FB3.5A45.B692.4593.8EDD.37D0.AF55.A14B
+36050025882 Consumo Ponta Consumo Ativo NP Reg 1.005 2.625 0.4200 680.40 kWh
+36050025882 Consumo Reservado Consumo Ativo RV Reg 117.933 206.877 0.4200 37.356.48 kWh
+36050025882 Reat. Indutiva FPonta Consumo Reativo FP Reg 188.157 399.406 0.4200 88.724.58 kVArh Informações sobre Consumo Apresentação
+36050025882 Reat. Indutiva Ponta Consumo Reativo NP Reg 16.261 42.351 0.4200 10.957.80 kVArh Consumo Médio Diário (kWh): 1.667.16 01/02/2023
+36050025882 Reat. Indutiva Reser. Consumo Reativo RV Reg 120.554 262.318 0.4200 59.540.88 kVArh
+36050025882 Demanda Acumulada FP Demanda Acumulada FP Reg 878 1.326 1.6800 752.64 kW Média dos 12 meses (kWh): 30.932.37
+36050025882 Demanda Acumulada NP Demanda Acumulada NP Reg 98 192 1.6800 157.92 kW Resolução ANEEL
+36050025882 Dem.Acumulada Reserv. Demanda Acumulada RV Reg 840 1.270 1.6800 722.40 kW Dem. Máx. F. Ponta (kW): 752.64
+36050025882 Demanda Fora Ponta Demanda Ativa FP Reg 0 448 1.6800 752.64 kW Dem. Máx. Ponta (kW): 157.92 3033/22
+36050025882 Demanda Ponta Demanda Ativa NP Reg 0 94 1.6800 157.92 kW
+36050025882 Demanda Ativa RV Demanda Ativa RV Reg 0 430 1.6800 722.40 kW
+Incidirão sobre a conta paga após o vencimento multa de 2%, juros de mora de
+36050025882 DMCR Acumulada FPta DMCR Acumulada FP Reg 3.869 5.839 0.4200 827.40 kVArhe
+0.0333% ao dia (conf. Lei 10.438/02) e atualização monetária com base no
+36050025882 DMCR Acumulada NP DMCR Acumulada NP Reg 1.038 1.590 0.4200 231.84 kVArhe
+IPCA a serem incluídos na proxima fatura.
+36050025882 DMCR Acumulada Reserv DMCR Acumulada RV Reg 3.602 5.645 0.4200 858.06 kVArhe
+REAVISO DE VENCIMENTO
+Nome do Cliente: C.C: Unidade de Leitura: Competência: Vencimento: Valor cobrado (R$):
+LUIZ JATOBA FILHO 15383962 JE20A002 01/2023 80.015.18
+FATURA ARRECADADA - NÃO RECEBER
+2ª Via
+Página 2/2
+Ouvidoria Equatorial Alagoas: 0800 721 0082. As informações sobre as condições de fornecimento, tarifas, produtos, serviços prestados, ARSAL-AL: 0800 727 0167 Agência Nacional de
+Ligação Gratuita de telefones fixos e móveis tributos e informações complementares encontram-se disponíveis para consulta nas Ligação gratuita de telefones fixos. Energia Elétrica (ANEEL) 167.
+de segunda a sexta, das 08h às 18h Agências de Atendimento e na área reservada ao consumidor no site da Equatorial Alagoas. Ligação Gratuita de telefones fixos e móveis.
+Informações ao cliente
+1. Energia elétrica oferece perigo. Para mexer nas instalações, procure sempre um eletricista. 2. É de O pagamento da conta de luz:
+inteira responsabilidade do cliente, a qualquer tempo, a atualização cadastral da Conta Contrato e # Esta conta pode ser paga em qualquer local credenciado.
+adequação técnica e de segurança das instalações elétricas, conforme normas expedidas pelos órgãos Procure o mais próximo de você.
+oficiais competentes, pela Associação Brasileira de Normas Técnicas (ABNT) ou outra entidade # Esta fatura não pode ser paga com cheque.
+credenciada pelo Conselho Nacional de Metrologia Normatização e Qualidade Industrial (Conmetro) e # Autorize o débito automático em conta corrente de sua
+das normas e padrões do concessionário postos à disposição do interessado. 3. As informações sobre as conta de luz. É muito mais cômodo, fácil e seguro.
+condições de fornecimento, tarifa, produtos, serviços prestados e tributos, encontram-se à disposição em # Caso não efetue o pagamento de sua conta de luz, após
+nossas agências ou no site da Aneel, www.aneel.gov.br. 4. Teleatendimento: das 8h às 18h para o 15º dia do vencimento, você estará sujeito à suspensão
+solicitações de serviços comerciais e 24h para informações sobre falha no sistema elétrico. do fornecimento de energia e inclusão nos órgãos de
+proteção ao crédito.
+É direito do consumidor ou da central geradora de solicitar à distribuidora o detalhamento da apuração dos indicadores DIC, FIC, DMIC E DICRI a qualquer tempo.
+É direito do consumidor ou da central geradora de receber uma compensação, caso sejam violados os limites de continuidade individuais relativos à unidade consumidora ou central geradora.
+Histórico dos últimos meses
+DEMANDA MEDIDA CONSUMO FATURADO HORÁRIO RESERVADO
+MÊS PONTA FORA PONTA REATIVO EXCEDENTE PONTA/TOT FORA PONTA REATIVO EXCEDENTE CONSUMO REATIVO EXCEDENTE
+JAN 157.92 752.64 105.42 680.40 51.001.44 56.871.36 37.356.48 10.848.60
+DEZ 11.76 816.48 111.93 697.41 79.622.70 67.045.21 51.903.23 14.012.34
+NOV 10.08 771.12 59.64 492.66 63.693.84 53.996.04 42.396.48 11.012.82
+OUT 10.08 532.56 0.00 163.38 13.647.48 14.319.48 7.270.62 2.640.12
+SET 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00
+AGO 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00
+JUL 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00
+JUN 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00
+MAI 10.00 99.00 218.00 370.00 2.944.00 62.822.00 1.913.00 0.00
+ABR 13.00 100.00 249.00 628.00 4.909.00 144.676.00 3.008.00 0.00
+MAR 13.00 981.00 109.00 685.00 37.127.00 121.277.00 24.338.00 0.00
+FEV 15.00 762.00 93.00 605.00 114.159.00 54.198.00 92.234.00 0.00
+JAN 35.00 752.00 91.00 599.00 50.845.00 71.473.00 40.225.00 0.00
+Gráfico de Consumo Tarifa sem tributos
+RESOLUÇÃO ANEEL 3033/22
+450000
+Consumo Fora Ponta: 0.380955
+360000 Consumo Ponta: 2.178569
+Consumo Horario Reservado: 0.038873
+270000 Demanda Ativa: 24.176600
+180000
+Conforme Resolução Normativa Aneel 581/2013 Arts 7º e 8º é seu direito solicitar a
+90000 qualquer tempo à Equatorial Alagoas o cancelamento de cobrança relativa de outros
+serviços cobrados na fatura, bem como a emissão da nova fatura sem a cobrança
+0 dos serviços cancelados. Ressalta-se que o fornecimento poderá ser suspenso
+JUL AGO AGO SET SET OUT OUT NOV NOV DEZ DEZ JAN JAN caso os valores referentes aos serviços de distribuição de energia não sejam
+Ponta Fora Ponta Reservado devidamente pagos.
