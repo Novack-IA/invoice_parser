@@ -1,15 +1,9 @@
 
 venv/
 
-
 data/*
 !data/
 !data/raw/
-!data/raw/invoices/
-!data/raw/extracted_text/
-!data/raw/preprocessed_text/
-!data/raw/processed/
-
 
 logs/
 *.log
