@@ -1,13 +1,11 @@
 
 venv/
 
-# Ignora todos os arquivos dentro de data/raw/, mas mantém as pastas
 data/raw/invoices/*
 data/raw/extracted_text/*
 data/raw/preprocessed_text/*
 data/raw/processed/*
 
-# Mas mantém as pastas vazias no Git
 !data/raw/invoices/
 !data/raw/extracted_text/
 !data/raw/preprocessed_text/
