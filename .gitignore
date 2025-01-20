@@ -1,12 +1,17 @@
 
 venv/
 
-data/*
-!data/
-!data/raw/
+# Ignora todos os arquivos dentro de data/raw/, mas mantém as pastas
+data/raw/invoices/*
+data/raw/extracted_text/*
+data/raw/preprocessed_text/*
+data/raw/processed/*
 
-logs/
-*.log
+# Mas mantém as pastas vazias no Git
+!data/raw/invoices/
+!data/raw/extracted_text/
+!data/raw/preprocessed_text/
+!data/raw/processed/
 
 .vscode/
 
