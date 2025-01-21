@@ -6,28 +6,22 @@ from langchain.schema.runnable import RunnableSequence
 
 SEPARATOR = "### NOVA_FATURA ###"
 
-# Inicializa o modelo OpenAI com a chave de API definida no ambiente
 llm = ChatOpenAI(model_name="o1-mini", temperature=0.2, max_tokens=3000)
 
 def process_llm_response(prompt_path, output_folder):
     """Processa o prompt, envia a requisição ao LLM e salva os JSONs de saída."""
-    # Ler o prompt gerado
+
     with open(prompt_path, "r", encoding="utf-8") as f:
         prompt_text = f.read()
     
-    # Criar o modelo de prompt
     prompt = PromptTemplate(template=prompt_text, input_variables=[])
 
-    # Criar a cadeia de execução (substituindo LLMChain)
     chain = prompt | llm
 
-    # Substituir run({}) por invoke({})
     response = chain.invoke({})
 
-    # Separar a resposta usando o delimitador SEPARATOR
     json_blocks = response.split(SEPARATOR)
 
-    # Criar a pasta de saída, se necessário
     os.makedirs(output_folder, exist_ok=True)
 
     for i, json_text in enumerate(json_blocks):

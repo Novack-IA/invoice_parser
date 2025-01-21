@@ -4,7 +4,6 @@ import re
 data_folder = "data/raw/extracted_text/"
 output_folder = "data/raw/preprocessed_text/"
 
-# Criar diretório de saída se não existir
 os.makedirs(output_folder, exist_ok=True)
 
 def clean_text(text):
