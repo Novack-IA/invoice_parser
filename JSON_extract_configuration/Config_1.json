@@ -1,8 +1,10 @@
 {
     "fields_to_extract": {
-        "consumption_ponta": true,
+        "consumo_ponta": true,
         "Valor_total": true,
-        "excedente_reativo": true
+        "excedente_reativo": true,
+        "consumo_fora_ponta": true
+        
     },
     "Descrição": "Configuração para extração de dados padrão das faturas."
 }

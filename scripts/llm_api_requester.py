@@ -1,58 +1,33 @@
-from langchain.chat_models import ChatOpenAI
-from langchain.prompts import PromptTemplate
-from langchain.chains import LLMChain
-from langchain.schema import SystemMessage, HumanMessage
-import json
 import os
-
-llm = ChatOpenAI(model_name="gpt-4o", temperature=0.2, max_tokens=3000)
+import json
+from langchain_openai import ChatOpenAI
+from langchain.prompts import PromptTemplate
+from langchain.schema.runnable import RunnableSequence
 
 SEPARATOR = "### NOVA_FATURA ###"
-prompt_template = PromptTemplate(
-    input_variables=["fields", "faturas"],
-    template="""
-    Você é um assistente especializado em análise de faturas de energia elétrica.
-    Sua tarefa é extrair informações de múltiplas faturas com base nos campos fornecidos.
-    Cada fatura será separada pelo delimitador "{separator}".
 
-    ### Campos a serem extraídos:
-    {fields}
+# Inicializa o modelo OpenAI com a chave de API definida no ambiente
+llm = ChatOpenAI(model_name="o1-mini", temperature=0.2, max_tokens=3000)
 
-    ### Faturas:
-    {faturas}
-
-    Com base nas faturas fornecidas, extraia as informações e devolva um JSON estruturado para cada fatura, separados por "{separator}".
-    """
-)
-
-def load_extraction_config(config_path):
-    with open(config_path, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-def load_invoice_texts(invoice_folder):
-    invoices = []
-    for filename in sorted(os.listdir(invoice_folder)):
-        if filename.endswith(".txt"):
-            with open(os.path.join(invoice_folder, filename), "r", encoding="utf-8") as f:
-                invoices.append(f"Arquivo: {filename}\n{f.read().strip()}")
-    return invoices
-
-def process_invoices(config_path, invoice_folder):
-    extraction_config = load_extraction_config(config_path)
-    invoices = load_invoice_texts(invoice_folder)
+def process_llm_response(prompt_path, output_folder):
+    """Processa o prompt, envia a requisição ao LLM e salva os JSONs de saída."""
+    # Ler o prompt gerado
+    with open(prompt_path, "r", encoding="utf-8") as f:
+        prompt_text = f.read()
     
-    formatted_prompt = prompt_template.format(
-        fields=json.dumps(extraction_config["fields_to_extract"], indent=4),
-        faturas=f"\n{SEPARATOR}\n".join(invoices),
-        separator=SEPARATOR
-    )
+    # Criar o modelo de prompt
+    prompt = PromptTemplate(template=prompt_text, input_variables=[])
 
-    chain = LLMChain(llm=llm, prompt=PromptTemplate(input_variables=[], template=formatted_prompt))
-    response = chain.run({})
+    # Criar a cadeia de execução (substituindo LLMChain)
+    chain = prompt | llm
 
+    # Substituir run({}) por invoke({})
+    response = chain.invoke({})
+
+    # Separar a resposta usando o delimitador SEPARATOR
     json_blocks = response.split(SEPARATOR)
-    
-    output_folder = "data/raw/processed/"
+
+    # Criar a pasta de saída, se necessário
     os.makedirs(output_folder, exist_ok=True)
 
     for i, json_text in enumerate(json_blocks):
@@ -68,12 +43,10 @@ def process_invoices(config_path, invoice_folder):
                 print(f"⚠ Erro ao processar JSON da fatura {i+1}: {json_text}")
 
 if __name__ == "__main__":
-    config_path = "JSON_extract/Config_1.json"
-    invoice_folder = "data/raw/preprocessed_text"
-
-    if not os.path.exists(config_path):
-        print(f"Erro: Configuração de extração não encontrada em {config_path}")
-    elif not os.path.exists(invoice_folder):
-        print(f"Erro: Pasta de faturas não encontrada em {invoice_folder}")
+    prompt_path = "prompts/generatedprompt.txt"
+    output_folder = "data/raw/processed"
+    
+    if not os.path.exists(prompt_path):
+        print(f"Erro: Arquivo de prompt não encontrado em {prompt_path}")
     else:
-        process_invoices(config_path, invoice_folder)
+        process_llm_response(prompt_path, output_folder)

@@ -1,17 +1,21 @@
 
 venv/
 
+# Ignorar tudo dentro das pastas, mas permitir .gitkeep
 data/raw/invoices/*
 data/raw/extracted_text/*
 data/raw/preprocessed_text/*
 data/raw/processed/*
 
-!data/raw/invoices/
-!data/raw/extracted_text/
-!data/raw/preprocessed_text/
-!data/raw/processed/
+# Permitir as pastas e o arquivo .gitkeep dentro delas
+!data/raw/invoices/.gitkeep
+!data/raw/extracted_text/.gitkeep
+!data/raw/preprocessed_text/.gitkeep
+!data/raw/processed/.gitkeep
 
 .vscode/
+
+prompts/
 
 __pycache__/
 *.pyc
